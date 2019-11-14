@@ -5,6 +5,7 @@ public class Trees {
 
     private Stack<TreeNode> path;
 
+    //Problem 2
     public TreeNode createMinBST(List<Integer> array){
         TreeNode n = new TreeNode();
         int mid = (array.size()-1)/2;
@@ -15,6 +16,8 @@ public class Trees {
         return n;
     }
 
+
+    //problem 8
     public boolean findNodePath(TreeNode currentNode, TreeNode node){
 
         path.add(currentNode);
